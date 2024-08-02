@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WebRTC Video Call</title>
+</head>
+<body>
+  <video id="localVideo" autoplay></video>
+  <video id="remoteVideo" autoplay></video>
+  <script>
+    const configuration = { iceServers: [{ urls: 'stun:stun.l.google.com:19302' }] };
+    let localStream, remoteStream, peerConnection;
+
+    const localVideo = document.getElementById('localVideo');
+    const remoteVideo = document.getElementById('remoteVideo');
+
+    navigator.mediaDevices.getUserMedia({ video: true, audio: true })
+      .then(stream => {
+        localStream = stream;
+        localVideo.srcObject = stream;
+      });
+
+    async function createPeerConnection() {
+      peerConnection = new RTCPeerConnection(configuration);
+      peerConnection.addStream(localStream);
+      peerConnection.onaddstream = (event) => {
+        remoteStream = event.stream;
+        remoteVideo.srcObject = remoteStream;
+      };
+      peerConnection.onicecandidate = (event) => {
+        if (event.candidate) {
+          sendMessage('candidate', event.candidate);
+        }
+      };
+    }
+
+    async function startCall() {
+      await createPeerConnection();
+      const offer = await peerConnection.createOffer();
+      await peerConnection.setLocalDescription(offer);
+      sendMessage('offer', offer);
+    }
+
+    async function handleOffer(offer) {
+      await createPeerConnection();
+      await peerConnection.setRemoteDescription(new RTCSessionDescription(offer));
+      const answer = await peerConnection.createAnswer();
+      await peerConnection.setLocalDescription(answer);
+      sendMessage('answer', answer);
+    }
+
+    async function handleAnswer(answer) {
+      await peerConnection.setRemoteDescription(new RTCSessionDescription(answer));
+    }
+
+    async function handleCandidate(candidate) {
+      await peerConnection.addIceCandidate(new RTCIceCandidate(candidate));
+    }
+
+    function sendMessage(type, payload) {
+      const message = JSON.stringify({ type, payload });
+      // Substitua pelo seu mecanismo de envio de mensagem (ex: WebSocket, Firebase, etc.)
+    }
+
+    // Substitua por seu mecanismo de recebimento de mensagens (ex: WebSocket, Firebase, etc.)
+    function receiveMessage(message) {
+      const { type, payload } = JSON.parse(message);
+      if (type === 'offer') handleOffer(payload);
+      if (type === 'answer') handleAnswer(payload);
+      if (type === 'candidate') handleCandidate(payload);
+    }
+
+    // Exemplo de chamada de início
+    startCall();
+  </script>
+</body>
+</html>
