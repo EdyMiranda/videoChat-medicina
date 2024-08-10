@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Linfoma",
+    "description": "Linfoma é um tipo de câncer que começa nas células do sistema linfático.",
+    "symptoms": "Inchaço nos gânglios linfáticos, febre, suor noturno, perda de peso.",
+    "causes": "Mutação genética nas células linfáticas."
+  },
+  {
+    "name": "Diabetes",
+    "description": "Diabetes é uma condição em que o nível de glicose no sangue está muito alto.",
+    "symptoms": "Sede excessiva, urinação frequente, fome extrema, fadiga.",
+    "causes": "Produção insuficiente de insulina ou resistência à insulina."
+  }
+  // Adicione mais doenças conforme necessário
+]
