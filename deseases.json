@@ -64,6 +64,66 @@
     "description": "O tétano é uma doença grave causada por uma toxina bacteriana que afeta o sistema nervoso, levando a espasmos musculares intensos e dificuldade para respirar. Pode ser fatal sem tratamento adequado.",
     "symptoms": "Espasmos musculares dolorosos, rigidez na mandíbula, dificuldade para engolir e respirar.",
     "causes": "Infecção pela bactéria Clostridium tetani, geralmente adquirida por ferimentos contaminados com solo ou objetos enferrujados."
+  },
+  {
+    "name": "Gastrite",
+    "description": "A gastrite é a inflamação da mucosa do estômago, podendo ser aguda ou crônica. Se não tratada, pode levar a úlceras ou aumentar o risco de câncer gástrico. Os fatores de risco incluem dieta inadequada, estresse e infecção por H. pylori.",
+    "symptoms": "Dor abdominal, náusea, vômito, sensação de queimação no estômago, perda de apetite.",
+    "causes": "Infecção pela bactéria Helicobacter pylori, uso excessivo de anti-inflamatórios, consumo excessivo de álcool e estresse prolongado."
+  },
+  {
+    "name": "Gonorreia",
+    "description": "A gonorreia é uma infecção sexualmente transmissível (IST) causada por bactérias que afetam principalmente os órgãos genitais, mas também podem atingir a garganta e os olhos. Se não tratada, pode causar infertilidade e complicações graves.",
+    "symptoms": "Corrimento genital, dor ao urinar, sangramento entre menstruações, dor pélvica.",
+    "causes": "Infecção pela bactéria Neisseria gonorrhoeae, transmitida por contato sexual desprotegido."
+  },
+  {
+    "name": "Gota",
+    "description": "A gota é uma forma de artrite inflamatória causada pelo acúmulo de cristais de ácido úrico nas articulações, resultando em dor intensa e inchaço, especialmente no dedão do pé.",
+    "symptoms": "Dor intensa nas articulações, vermelhidão, inchaço, rigidez e sensibilidade ao toque.",
+    "causes": "Acúmulo de ácido úrico no sangue devido a fatores genéticos, dieta rica em purinas, consumo excessivo de álcool e problemas renais."
+  },
+  {
+    "name": "Gripe",
+    "description": "A gripe é uma infecção viral altamente contagiosa que afeta o sistema respiratório. Pode levar a complicações graves, especialmente em idosos, crianças e pessoas com condições crônicas.",
+    "symptoms": "Febre, calafrios, dor de cabeça, fadiga, tosse, congestão nasal, dor muscular.",
+    "causes": "Infecção pelo vírus Influenza, transmitida por gotículas respiratórias ao tossir, espirrar ou tocar superfícies contaminadas."
+  },
+  {
+    "name": "Glaucoma",
+    "description": "O glaucoma é uma doença ocular caracterizada pelo aumento da pressão intraocular, causando danos ao nervo óptico e podendo levar à cegueira irreversível se não tratada.",
+    "symptoms": "Perda gradual da visão periférica, visão embaçada, dor ocular, halos ao redor das luzes.",
+    "causes": "Aumento da pressão intraocular devido a problemas na drenagem do humor aquoso, fatores genéticos e envelhecimento."
+  },
+  {
+    "name": "Gastroenterite",
+    "description": "A gastroenterite é uma inflamação do estômago e dos intestinos, geralmente causada por infecções virais, bacterianas ou parasitárias. É uma das principais causas de desidratação em crianças e idosos.",
+    "symptoms": "Diarreia, vômito, cólicas abdominais, febre, desidratação.",
+    "causes": "Infecção por vírus como norovírus e rotavírus, bactérias como Salmonella e E. coli, ou parasitas como Giardia."
+  },
+  {
+    "name": "Galactosemia",
+    "description": "A galactosemia é uma doença genética rara que afeta a capacidade do organismo de metabolizar galactose, um tipo de açúcar encontrado no leite. Sem tratamento, pode causar danos ao fígado e cérebro.",
+    "symptoms": "Vômito, icterícia, letargia, convulsões, dificuldade de alimentação em recém-nascidos.",
+    "causes": "Deficiência enzimática genética que impede o metabolismo da galactose, levando ao acúmulo tóxico dessa substância no organismo."
+  },
+  {
+    "name": "Gengivite",
+    "description": "A gengivite é uma inflamação das gengivas causada pelo acúmulo de placa bacteriana. Se não tratada, pode evoluir para periodontite, levando à perda dentária.",
+    "symptoms": "Gengivas vermelhas e inchadas, sangramento ao escovar os dentes, mau hálito, sensibilidade gengival.",
+    "causes": "Má higiene bucal, acúmulo de placa bacteriana, tabagismo, alterações hormonais e deficiência de vitamina C."
+  },
+  {
+    "name": "Gangrena",
+    "description": "A gangrena ocorre quando há morte dos tecidos do corpo devido à falta de circulação sanguínea ou infecção grave. Pode ser fatal se não tratada rapidamente.",
+    "symptoms": "Descoloração da pele (preta, azulada ou verde), dor intensa, mau cheiro, necrose dos tecidos.",
+    "causes": "Interrupção do fluxo sanguíneo devido a diabetes, lesões graves, infecção bacteriana ou trombose."
+  },
+  {
+    "name": "Giardíase",
+    "description": "A giardíase é uma infecção intestinal causada pelo protozoário Giardia lamblia, geralmente adquirida por ingestão de água ou alimentos contaminados. Pode causar diarreia persistente e desidratação.",
+    "symptoms": "Diarreia, cólicas abdominais, gases, náusea, fadiga.",
+    "causes": "Infecção pelo protozoário Giardia lamblia, transmitida por ingestão de água contaminada ou contato com fezes infectadas."
   }
 ]
 
