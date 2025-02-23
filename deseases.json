@@ -1,15 +1,63 @@
 [
   {
-    "name": "Linfoma",
-    "description": "Linfoma é um tipo de câncer que começa nas células do sistema linfático.",
-    "symptoms": "Inchaço nos gânglios linfáticos, febre, suor noturno, perda de peso.",
-    "causes": "Mutação genética nas células linfáticas."
+    "name": "Anemia falciforme",
+    "description": "A anemia falciforme é uma doença hereditária do sangue que causa a deformação dos glóbulos vermelhos, tornando-os rígidos e em forma de foice. Isso pode bloquear a circulação sanguínea e causar dor intensa, fadiga, além de maior risco de infecções e danos a órgãos vitais.",
+    "symptoms": "Dor intensa (crises falciformes), fadiga, infecções frequentes, inchaço nas mãos e pés, icterícia.",
+    "causes": "Mutação genética que afeta a hemoglobina, herdada de ambos os pais."
+  },
+  {
+    "name": "Asma",
+    "description": "A asma é uma condição crônica que afeta as vias respiratórias, causando inflamação e estreitamento dos brônquios. Isso leva a episódios recorrentes de chiado no peito, falta de ar, aperto no peito e tosse, que podem ser desencadeados por alérgenos, infecções ou exercício físico.",
+    "symptoms": "Falta de ar, chiado no peito, tosse persistente, aperto no peito.",
+    "causes": "Fatores genéticos e ambientais, exposição a alérgenos e infecções respiratórias."
+  },
+  {
+    "name": "Brucelose",
+    "description": "A brucelose é uma infecção bacteriana transmitida pelo consumo de leite não pasteurizado, carne contaminada ou contato direto com animais infectados. Pode causar febre ondulante, dor nas articulações e fadiga crônica, além de complicações sérias se não tratada.",
+    "symptoms": "Febre recorrente, sudorese noturna, dor nas articulações, fraqueza.",
+    "causes": "Infecção pela bactéria Brucella, transmitida por alimentos contaminados ou contato com animais."
+  },
+  {
+    "name": "Cólera",
+    "description": "A cólera é uma infecção intestinal aguda causada pela bactéria Vibrio cholerae, frequentemente transmitida por água e alimentos contaminados. Provoca diarreia severa e desidratação rápida, podendo levar à morte se não for tratada rapidamente com reposição de líquidos e eletrólitos.",
+    "symptoms": "Diarreia aquosa intensa, vômitos, desidratação grave, fraqueza.",
+    "causes": "Ingestão de água ou alimentos contaminados com Vibrio cholerae."
+  },
+  {
+    "name": "Dengue",
+    "description": "A dengue é uma infecção viral transmitida pela picada do mosquito Aedes aegypti. Os sintomas incluem febre alta, dor muscular e articular intensa, dor atrás dos olhos e manchas vermelhas na pele. Em casos graves, pode evoluir para dengue hemorrágica, com risco de choque e óbito.",
+    "symptoms": "Febre alta, dor muscular e articular, dor de cabeça, erupções cutâneas.",
+    "causes": "Infecção pelo vírus da dengue transmitido pelo mosquito Aedes aegypti."
   },
   {
     "name": "Diabetes",
-    "description": "Diabetes é uma condição em que o nível de glicose no sangue está muito alto.",
-    "symptoms": "Sede excessiva, urinação frequente, fome extrema, fadiga.",
-    "causes": "Produção insuficiente de insulina ou resistência à insulina."
+    "description": "O diabetes é uma doença metabólica crônica caracterizada pelo aumento dos níveis de glicose no sangue devido à produção insuficiente de insulina pelo pâncreas ou resistência das células à insulina. Pode levar a complicações cardiovasculares, renais e neurológicas se não for tratado corretamente.",
+    "symptoms": "Sede excessiva, urinação frequente, fome extrema, fadiga, visão turva.",
+    "causes": "Deficiência na produção de insulina ou resistência à insulina."
+  },
+  {
+    "name": "Doença do sono",
+    "description": "A doença do sono, ou tripanossomíase africana, é causada pelo protozoário Trypanosoma brucei, transmitido pela picada da mosca tsé-tsé. A infecção atinge o sistema nervoso central, levando a alterações do sono, confusão mental e, sem tratamento, pode ser fatal.",
+    "symptoms": "Febre, fadiga, dor de cabeça, inchaço dos linfonodos, sonolência excessiva, confusão mental.",
+    "causes": "Infecção pelo protozoário Trypanosoma brucei, transmitida pela mosca tsé-tsé."
+  },
+  {
+    "name": "Ebola",
+    "description": "O ebola é uma febre hemorrágica viral altamente letal, transmitida por contato com fluidos corporais de pessoas ou animais infectados. Causa febre alta, dor intensa no corpo, vômitos, diarreia e sangramentos internos e externos, podendo levar à morte em poucos dias.",
+    "symptoms": "Febre alta, dor no corpo, diarreia, vômitos, sangramento interno e externo.",
+    "causes": "Infecção pelo vírus ebola, transmitida por contato com fluidos corporais contaminados."
+  },
+  {
+    "name": "Esquistossomose",
+    "description": "A esquistossomose é uma doença parasitária causada por vermes do gênero Schistosoma, transmitidos por caramujos de água doce. Afeta principalmente o fígado, os rins e a bexiga, podendo causar inflamação crônica e danos aos órgãos.",
+    "symptoms": "Febre, dor abdominal, diarreia, sangue na urina ou fezes, aumento do fígado e do baço.",
+    "causes": "Contato com água contaminada por larvas do Schistosoma."
+  },
+  {
+    "name": "Febre amarela",
+    "description": "A febre amarela é uma infecção viral transmitida pela picada de mosquitos infectados. Causa febre alta, calafrios, dor muscular, icterícia e, em casos graves, insuficiência hepática e renal, podendo ser fatal.",
+    "symptoms": "Febre alta, dor muscular, icterícia, vômitos, sangramentos.",
+    "causes": "Infecção pelo vírus da febre amarela transmitida por mosquitos."
   }
 ]
 
