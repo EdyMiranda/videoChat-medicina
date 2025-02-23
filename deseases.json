@@ -58,6 +58,12 @@
     "description": "A febre amarela é uma infecção viral transmitida pela picada de mosquitos infectados. Causa febre alta, calafrios, dor muscular, icterícia e, em casos graves, insuficiência hepática e renal, podendo ser fatal.",
     "symptoms": "Febre alta, dor muscular, icterícia, vômitos, sangramentos.",
     "causes": "Infecção pelo vírus da febre amarela transmitida por mosquitos."
+  },
+   {
+    "name": "Tétano",
+    "description": "O tétano é uma doença grave causada por uma toxina bacteriana que afeta o sistema nervoso, levando a espasmos musculares intensos e dificuldade para respirar. Pode ser fatal sem tratamento adequado.",
+    "symptoms": "Espasmos musculares dolorosos, rigidez na mandíbula, dificuldade para engolir e respirar.",
+    "causes": "Infecção pela bactéria Clostridium tetani, geralmente adquirida por ferimentos contaminados com solo ou objetos enferrujados."
   }
 ]
 
